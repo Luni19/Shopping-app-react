@@ -1,3 +1,19 @@
+:root{
+    --textColor: #333;
+    --yellow: #EBD96B;
+
+}
+
+
 body {
     font-family: 'Poppins', sans-serif ;
+}
+.conteiner{
+ max-width: 1780px;
+ margin: 0 auto;   
+ padding: 0 30px;
+}
+
+.header_row_{
+    display: flex;
 }
