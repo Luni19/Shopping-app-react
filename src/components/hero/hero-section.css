@@ -1,0 +1,46 @@
+.hero-content{
+    display: flex;
+    border-radius: 59px;
+    background-color:#F4F6F5;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+}
+
+.hero-tittle{
+font-size: 96px;
+font-weight: 900;
+line-height: 120px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+}
+
+.hero-description{
+
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.05em;
+text-align: left;
+}
+
+.hero-btn{
+border-radius: 10px;
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: -0.05em;
+text-align: left;
+color: white;
+}
+
+.hero-bt::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    background: #EBD96B;
+    background-image: url(../../images/icons/decor-yellow.svg);
+}
