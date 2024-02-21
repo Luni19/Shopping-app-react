@@ -7,17 +7,16 @@ function hero (){
         <div className='conteiner'>
             <div className="hero-content">
                 <div className="hero-text">
-                    <div className="hero-tittle"> LET’S EXPLORE UNIQUE CLOTHES.</div>
-               
-                <div className="hero-description">
-                Live for Influential and Innovative fashion!
-                </div>
-                <div className="hero-btn"></div>
+                    <h2 className="hero-tittle"> LET’S EXPLORE UNIQUE CLOTHES.</h2>
+                  <p className="hero-description">
+                  Live for Influential and Innovative fashion!
+                  </p>
+                  <button type="button" className="hero-btn">Shop Now</button>
+                  </div>
                     <div className="hero-img">
-                        <img src={heroImage} alt="heroImage" />
-                        
+                        <img src={heroImage} alt="heroImage" />  
                     </div>
-                </div>
+                
 
             </div>
 

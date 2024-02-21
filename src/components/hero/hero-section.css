@@ -14,6 +14,8 @@ line-height: 120px;
 letter-spacing: 0em;
 text-align: left;
 margin-bottom: 40px;
+max-width: 474px;
+
 }
 
 .hero-description{
@@ -33,14 +35,19 @@ line-height: 45px;
 letter-spacing: -0.05em;
 text-align: left;
 color: white;
+background-color: black;
+width: 221px;
+height: 82px;
+border-radius: 10px;
+padding-left: 41px;
 }
 
-.hero-bt::before{
+.hero-btn::before{
     content: '';
     display: block;
-    position: absolute;
-    width: 90px;
+    width: 190px;
     height: 32px;
-    background: #EBD96B;
+    
+
     background-image: url(../../images/icons/decor-yellow.svg);
 }
