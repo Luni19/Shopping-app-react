@@ -14,9 +14,47 @@ line-height: 120px;
 letter-spacing: 0em;
 text-align: left;
 margin-bottom: 40px;
-max-width: 474px;
-
+max-width: 475px;
 }
+.word-lets{
+position: relative;
+display: inline-block   ;
+}
+.word-lets span{
+    position: relative;
+}
+.word-lets::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left:-20px;
+    right: -160px;
+    background-color: white;
+    transform: rotate(-2deg);
+}
+.word-unique{
+position: relative;
+display: inline-block;
+}
+.word-unique span{
+    position: relative;
+}
+.word-unique::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -2px;
+        bottom: -2px;
+        left:-20px;
+        right: -120px;
+        background-color: #EBD96B;
+        transform: rotate(-2deg);
+}   
+
+
+
 
 .hero-description{
 
@@ -25,6 +63,7 @@ font-weight: 400;
 line-height: 48px;
 letter-spacing: -0.05em;
 text-align: left;
+margin-bottom: 32px;
 }
 
 .hero-btn{
@@ -36,15 +75,21 @@ letter-spacing: -0.05em;
 text-align: left;
 color: white;
 background-color: black;
-width: 221px;
-height: 82px;
 border-radius: 10px;
 padding-left: 41px;
+width: 221px;
+height: 82px;
 }
 
-.hero-btn::before{
+
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+.btn-wrapper::before{
     content: '';
-    display: block;
+    display: inline-block;
     width: 190px;
     height: 32px;
     
