@@ -1,23 +1,21 @@
 import './test.css'; 
-import img1 from "../../images/categories/cat-01.jpg"
 import arrowSvg from "../../images/icons/arrow.svg"
 
-function card () {
+function card (props) {
     return(
         <div className="card">
            
-            <img src={img1} alt=""></img>
-        
+            <img src={props.img} alt=""></img>
+        <div className="text-with-arrow">
         <div className="card-description">
-        Hoodies & Sweetshirt
+        {props.tittle}
             <div className="second-text">
             Explore Now!
             </div>
-
-
         </div>
         <div className="icon-right">
             <img className="card-img" src={arrowSvg} alt="arrow" />
+        </div>
         </div>
      </div>
     )

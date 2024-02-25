@@ -1,6 +1,25 @@
-.card{
-    background-color: black;
+.card-description{
+font-size: 32px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: -0.04em;
+text-align: left;
+
 }
 .second-text{
-    width: 200px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    
+}
+
+.card img{
+    border-radius: 28px;
+}
+.text-with-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

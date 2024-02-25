@@ -2,7 +2,6 @@ import Header from "./components/header/header";
 import Hero from "./components/hero/Hero";
 import Brands from "./components/brands-section/brands-section"
 import NewArrivals from "./components/NewArrivals/NewArrivals";
-import Card from "./components/Card/card";
 
 
 
@@ -14,7 +13,6 @@ function App() {
      <Hero/>
      <Brands />
      <NewArrivals />
-     <Card />
     </div>
   )
 }

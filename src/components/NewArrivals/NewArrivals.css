@@ -4,11 +4,19 @@ padding-bottom: 143px;
 }
 
 .arrivalsHeader{
-    margin-bottom: 100px;
+    margin-bottom: 114px;
 }
 
 .arrivals-cards{
-    display: flex;
-    justify-content: space-between;
+    
     column-gap: 30px;
+}
+
+.tittle-2{
+    margin-bottom: 114px;
+}
+
+.cards-list{
+    display: flex;
+    column-gap: 131px;
 }
