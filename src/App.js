@@ -2,7 +2,7 @@ import Header from "./components/header/header";
 import Hero from "./components/hero/Hero";
 import Brands from "./components/brands-section/brands-section"
 import NewArrivals from "./components/NewArrivals/NewArrivals";
-
+import Sales from "./components/sale-section/sales";
 
 
 
@@ -13,6 +13,7 @@ function App() {
      <Hero/>
      <Brands />
      <NewArrivals />
+     <Sales />
     </div>
   )
 }
