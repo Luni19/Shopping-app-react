@@ -1,0 +1,4 @@
+.content-conteiner{
+    display: flex;
+    column-gap: 48px;
+}
