@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 import Brands from "./components/brands-section/brands-section"
 import NewArrivals from "./components/NewArrivals/NewArrivals";
 import Yangs from "./components/Young’s Favourite-section/Young’s Favourite";
-import AppSection from "./components/app-section/App-section." ;
+import MobileApp from "./components/app-section/mobileApp";
 
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
      <Brands />
      <NewArrivals />
      <Yangs />
-     <AppSection />
-
+    <MobileApp />
     </div>
   )
 }
