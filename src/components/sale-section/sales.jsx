@@ -9,10 +9,15 @@ function sales () {
                 <div className="img-conteiner">
                     <img src={img1} alt="" />
                 </div>
-                <div className="text-conteine">
-                    <h2>PAYDAY SALE NOW</h2>
-                    <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
-                    <p><strong className="bold-text">1 June - 10 June 2021 </strong> *Terms & Conditions apply </p>
+                <div className="text-conteiner">
+                    <div className="text-test">
+                    <div className="payday-text">
+                        <span>PAYDAY</span>
+                     <span>SALE NOW</span>
+                     </div>
+                    </div>
+                    <p className="discount">Spend minimal $100 get 30% off voucher code for your next purchase</p>
+                    <p className="terms-text"><strong className="bold-text">1 June - 10 June 2021</strong>*Terms & Conditions apply </p>
                 </div>
                 </div>
             </div>
