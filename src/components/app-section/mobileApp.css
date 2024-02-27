@@ -1,18 +1,25 @@
+.app{
+    padding-top: 150px;
+    padding-bottom: 220px;
+}
+
+
 .mobile-app-wrapper{
     display: flex;
     align-items: center;
     padding-left: 119px;
+    column-gap: 305px;
 }
 
 .Voucher-text{
+display: flex;
+flex-direction: column;
+
 font-size: 48px;
 font-weight: 900;
 line-height: 72px;
 letter-spacing: 0.06em;
-text-align: left;
 margin-bottom: 41px;
-
-
 }
 
 .discount-text{
@@ -23,6 +30,7 @@ line-height: 35px;
 letter-spacing: -0.04em;
 text-align: left;
 color: #7C7C7C;
+max-width: 419PX;
 
 }
 .text-wrapper{

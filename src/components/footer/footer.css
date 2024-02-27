@@ -1,0 +1,4 @@
+.lists-wrapper{
+    display: flex;
+    column-gap: 50px;
+}
