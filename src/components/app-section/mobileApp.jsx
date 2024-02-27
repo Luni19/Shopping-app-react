@@ -9,8 +9,10 @@ function MobileApp () {
             <div className="conteiner">
               <div className="mobile-app-wrapper">
                 <div className="text-conteiner-wrapper">
+                    <div className="text-wrapper">
                     <h2 className="Voucher-text">DOWNLOAD APP & GET THE VOUCHER!</h2>
                     <p className="discount-text">Get 30% off for first transaction using Rondovision mobile app for now.</p>
+                    </div>
                     <div className="wrapper">
                        <img src={imgApple} alt="Apple-store" />
                        <img src={imgAndroid} alt="Google-play" />

@@ -7,7 +7,7 @@ function hero (){
         <div className='conteiner'>
             <div className="hero-content">
                 <div className="hero-text">
-                    <h2 className="hero-tittle"> <span className="word-lets"><span>LET’S</span></span> EXPLORE <span className="word-unique"><span>UNIQUE</span></span> CLOTHES.</h2>
+                    <h2 className="hero-tittle"><span className="word-lets"><span>LET’S</span></span> EXPLORE <span className="word-unique"><span>UNIQUE</span></span>CLOTHES.</h2>
                   <p className="hero-description">
                   Live for Influential and Innovative fashion!
                   </p>
