@@ -1,4 +1,68 @@
+footer{
+    padding-top: 119px;
+    background-color: #000000;
+}
+
+
 .lists-wrapper{
     display: flex;
     column-gap: 50px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.fasion-discription-wrapper{
+   
+    display: block;
+}
+
+.fasion-text{
+font-size: 40px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+.fasion-second-text{
+
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 40px;
+ letter-spacing: 0.02em;
+ text-align: left;
+ color: #8E8E8E;
+ max-width: 415px;
+ margin-bottom: 32px;
+}
+.socials-list{
+    display: flex;
+    column-gap: 14px;
+}
+.contacts-list{
+    color: #8E8E8E;
+}
+
+.faq-list{
+    color: #8E8E8E;
+}
+.privacy-list{
+    color: #8E8E8E;
+}
+
+.footer-list-item{
+    margin-bottom: 32px;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.contacts-list .footer-list-item:first-child,
+.faq-list .footer-list-item:first-child,
+.privacy-list .footer-list-item:first-child {
+    color: #D9D9D9 ;
 }
